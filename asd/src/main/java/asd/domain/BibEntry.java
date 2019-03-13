@@ -3,6 +3,7 @@ package asd.domain;
 import java.util.Map;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
@@ -11,6 +12,7 @@ import lombok.NoArgsConstructor;
  */
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
 public class BibEntry
 {
     private long id;

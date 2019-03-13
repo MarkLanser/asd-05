@@ -4,7 +4,7 @@ import asd.domain.BibEntry;
 import lombok.NoArgsConstructor;
 
 /**
- * BibEntry is the aggregate root for this aggregate
+ * The converting service
  *
  */
 @NoArgsConstructor
