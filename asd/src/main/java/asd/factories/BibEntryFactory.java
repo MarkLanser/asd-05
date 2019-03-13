@@ -1,7 +1,6 @@
 package asd.factories;
 
 import asd.domain.BibEntry;
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 /**
@@ -14,7 +13,8 @@ public class BibEntryFactory
     // Some factory
     public BibEntry createBibEntry() 
     {
-        return null;
+        // Some implementation
+        return new BibEntry();
     }
 
 }
